@@ -12,7 +12,7 @@ CREATE TABLE roles (
 id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
 title VARCHAR(30) NOT NULL,
 salary DECIMAL,
-department_id DECIMAL,
+department_id INT,
 FOREIGN KEY (department_id)
 REFERENCES departments(id)
 );
@@ -25,4 +25,6 @@ role_id INT,
 Manager_id INT,
 FOREIGN KEY (role_id)
 REFERENCES roles(id)
+FOREIGN KEY (Manager_id)
+REFERENCES employees(id)
 );
