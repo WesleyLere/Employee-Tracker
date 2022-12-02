@@ -21,7 +21,7 @@ This program allows you to keep track of your employees, roles, and departments
 [![Demo video](./assets/Demo.webm)](https://drive.google.com/file/d/1DnX6lvvp22qFCRqp0TzHfNIw_69pA7u9/view)
 
   ### Credits
-[WesleyLere](https://github.com/WesleyLere)
+[WesleyLere](mailto:weslere@gmail.com)
 
 
 ### Contact info
